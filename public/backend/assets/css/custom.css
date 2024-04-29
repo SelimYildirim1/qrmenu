@@ -1,0 +1,15 @@
+.thumbnail {
+    width: 150px;
+    /* Kare ve Thumbnail boyutu */
+    height: auto;
+    /* Kare ve Thumbnail boyutu */
+    overflow: hidden;
+    /* Resim dışarı taşırsa kes */
+}
+
+.thumbnail img {
+    width: 100%;
+    /* Resmi 100% genişlikte yaparak kutunun içine sığdır */
+    height: auto;
+    /* Otomatik yükseklik ayarı, orantılı olarak boyutlandır */
+}
